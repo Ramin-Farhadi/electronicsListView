@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.card:hover {
+  background-color: antiquewhite;
+  transition: ease-in 0.3s;
+}
+.productTitle {
+  font-size: 1.5rem;
+}
+.productThumb {
+  width: 100%;
+  height: 200px;
+}
+.productDesc {
+  height: 50px;
+  overflow: hidden;
+}
+.productPrice {
+  display: block;
+  font-size: 1.3rem;
+}
